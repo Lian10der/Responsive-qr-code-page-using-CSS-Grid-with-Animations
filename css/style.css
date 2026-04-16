@@ -28,7 +28,7 @@ body{
     /* width: 100px;*/
     margin: 0 auto;        
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
-    perspective: 500px; 
+
 }
 
 .qrcode{
@@ -41,7 +41,7 @@ body{
 }
 
 .qrcode.girar{
-    transform:rotateX(360deg);
+    transform:rotateY(360deg);
 }
 
 h1{
@@ -69,4 +69,6 @@ footer{
     border: none;
     background-color: transparent;
     all: unset;
+    perspective: 1000px; 
+
 }
